@@ -1,0 +1,56 @@
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Sep/2025:13:38:12 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [22/Sep/2025:13:38:12 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:52:39 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:52:46 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:52:50 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:53:55 +0000] \"GET /api/ HTTP/1.1\" 404 143 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:53:59 +0000] \"GET /api/sign-in HTTP/1.1\" 404 150 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:54:04 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:54:10 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:54:32 +0000] \"GET /api/auth/sign-in/ HTTP/1.1\" 404 156 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:14:54:40 +0000] \"POST /api/auth/sign-in/ HTTP/1.1\" 200 6 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:07:21 +0000] \"POST /api/auth/sign-in/ HTTP/1.1\" 200 6 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"error","message":"Signup error cookies is not defined","service":"acquisitions-api","stack":"ReferenceError: cookies is not defined\n    at signup (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/controllers/auth.controller.js:29:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:07:51 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 500 394 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/services/auth.service.js:34:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/controllers/auth.controller.js:22:18)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:09:01 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 409 31 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"error","message":"Signup error res.cookies is not a function","service":"acquisitions-api","stack":"TypeError: res.cookies is not a function\n    at Object.set (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/utils/cookies.js:9:13)\n    at signup (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/controllers/auth.controller.js:30:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:09:23 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 500 520 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:11:33 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 101 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:14:04 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 101 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:15:20 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 101 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [22/Sep/2025:19:16:58 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 102 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Sep/2025:09:55:43 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Sep/2025:09:55:46 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Sep/2025:09:55:57 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Sep/2025:09:55:58 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [23/Sep/2025:09:58:16 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:01:16 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:01:26 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:01:31 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:04:11 +0000] \"POST /api/auth/sign-out/ HTTP/1.1\" 200 42 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:04:36 +0000] \"POST /api/auth/sign-in/ HTTP/1.1\" 200 6 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:04:40 +0000] \"POST /api/auth/sign-in/ HTTP/1.1\" 200 6 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/services/auth.service.js:34:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Honey/OneDrive/Desktop/devLearning/devLearning/src/controllers/auth.controller.js:23:18)"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:04:52 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 409 31 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
