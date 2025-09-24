@@ -5,6 +5,7 @@ import morgan from "morgan";
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 import authRoutes from './routes/auth.routes.js'
+import usersRoutes from './routes/users.routes.js';
 import securityMiddleware from "./middleware/security.middleware.js";
 
 const app = express();
@@ -20,6 +21,7 @@ app.use(cookieParser())
 app.use(morgan('combined',{stream: {write: (message) => logger.info(message.trim())}}))
 app.use(securityMiddleware)
 app.use('/api/auth', authRoutes)
+app.use('/api/users', usersRoutes);
 app.get('/api',(req, res) => res.status(200).send("new api updated"))
 app.get('/health', (req, res) => {
   res
