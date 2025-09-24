@@ -20,7 +20,16 @@ app.use(cookieParser())
 app.use(morgan('combined',{stream: {write: (message) => logger.info(message.trim())}}))
 app.use(securityMiddleware)
 app.use('/api/auth', authRoutes)
-app.get('/api',(req, res) => res.status(200).send("new api"))
+app.get('/api',(req, res) => res.status(200).send("new api updated"))
+app.get('/health', (req, res) => {
+  res
+    .status(200)
+    .json({
+      status: 'OK',
+      timestamp: new Date().toISOString(),
+      uptime: process.uptime(),
+    });
+});
 app.get('/', (req, res) => {
     logger.info('Hello from Acquisitions')
     res.status(200).send("Hello from Acquisitions")

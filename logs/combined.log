@@ -75,3 +75,97 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:58:21 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
 {"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [23/Sep/2025:10:58:22 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:55:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:55:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:55:50 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:55:54 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:55:58 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:56:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:56:23 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:56:40 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:56:45 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:56:49 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:57:10 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:57:14 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:57:20 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Thunder Client (https://www.thunderclient.com)"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:57:26 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:57:41 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:58:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:58:41 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User newdev@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: newdev@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:59:07 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 102 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:59:11 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:10:59:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:10:59:50 +0000] \"GET /api HTTP/1.1\" 200 7 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:00:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:00:42 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:01:12 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:01:39 +0000] \"GET /new HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:01:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:01:47 +0000] \"GET /new HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:01:48 +0000] \"GET /new HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/new","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:01:54 +0000] \"GET /new HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/favicon.ico","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:01:54 +0000] \"GET /favicon.ico HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:02:13 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:02:43 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:03:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:03:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:04:14 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:04:44 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:05:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"User newdev1@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: newdev1@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:05:17 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 103 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:05:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:06:15 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:06:45 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:07:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:07:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:08:16 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:08:46 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:09:17 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:09:47 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:10:17 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:10:48 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:11:18 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:11:48 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:12:18 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:12:49 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:13:19 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:13:49 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:14:20 +0000] \"GET /health HTTP/1.1\" 200 78 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:17:06 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:17:33 +0000] \"GET / HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:17:33 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:17:33 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:17:36 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:17:38 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:17:38 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:18:06 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"ip":"::ffff:172.18.0.1","level":"warn","message":"Rate limit exceeded","path":"/api","service":"acquisitions-api","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:18:35 +0000] \"GET /api HTTP/1.1\" 403 51 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:18:36 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:19:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:19:16 +0000] \"GET /api HTTP/1.1\" 200 15 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"User newdev2@devops.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: newdev2@devops.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:172.18.0.1 - - [24/Sep/2025:11:19:31 +0000] \"POST /api/auth/sign-up/ HTTP/1.1\" 201 103 \"-\" \"Thunder Client (https://www.thunderclient.com)\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:19:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:20:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:20:37 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:21:07 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [24/Sep/2025:11:21:38 +0000] \"GET /health HTTP/1.1\" 200 77 \"-\" \"-\"","service":"acquisitions-api"}
